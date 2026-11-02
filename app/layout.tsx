@@ -14,7 +14,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ereolengo.dk"),
+  metadataBase: new URL("https://biblogo.dk"),
   title: "Biblo GO!",
   description:
     "eReolen GO hedder nu Biblo GO! Vælg din kommune for at gå til dit lokale GO!-site.",
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
     title: "Biblo GO!",
     description:
       "eReolen GO hedder nu Biblo GO! Vælg din kommune for at gå til dit lokale GO!-site.",
-    images: ["/ereolen_logo_some_go.jpg"],
+    images: ["/biblo-go-some.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Biblo GO!",
     description:
       "eReolen GO hedder nu Biblo GO! Vælg din kommune for at gå til dit lokale GO!-site.",
-    images: ["/ereolen_logo_some_go.jpg"],
+    images: ["/biblo-go-some.png"],
   },
 };
 
@@ -48,13 +48,19 @@ export default function RootLayout({
           id="ti-loader"
           defer
         />
-        <script id="CookieConsent" src="https://policy.app.cookieinformation.com/uc.js" async
-    data-culture="EN" data-gcm-version="2.0" type="text/javascript"></script>
+        <script
+          id="CookieConsent"
+          src="https://policy.app.cookieinformation.com/uc.js"
+          async
+          data-culture="EN"
+          data-gcm-version="2.0"
+          type="text/javascript"
+        ></script>
       </head>
       <body className="bg-bg-primary flex min-h-screen flex-col antialiased">
         <Header />
         <main className="flex flex-1 px-4">
-          <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col pt-8 md:pt-[8vh] pb-12 md:pb-16">
+          <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col pt-8 pb-12 md:pt-[8vh] md:pb-16">
             {children}
           </div>
         </main>
