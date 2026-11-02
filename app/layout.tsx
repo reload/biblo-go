@@ -22,14 +22,14 @@ export const metadata: Metadata = {
     title: "Biblo GO!",
     description:
       "eReolen GO hedder nu Biblo GO! Vælg din kommune for at gå til dit lokale GO!-site.",
-    images: ["/biblo-go-some-v2.png"],
+    images: ["/biblo-go-v2-some.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Biblo GO!",
     description:
       "eReolen GO hedder nu Biblo GO! Vælg din kommune for at gå til dit lokale GO!-site.",
-    images: ["/biblo-go-some-v2.png"],
+    images: ["/biblo-go-v2-some.png"],
   },
 };
 
